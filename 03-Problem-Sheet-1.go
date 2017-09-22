@@ -24,7 +24,7 @@ func main() {
 		} else if i%3 == 0 {
 			fmt.Printf("Fizz.\n") //prints fizz when the number is only a multiple of 3.
 		} else {
-			fmt.Printf("%v.\n", i./) //prints the number if it is not a multiple of 3 or 5.
+			fmt.Printf("%v.\n", i) //prints the number if it is not a multiple of 3 or 5.
 		}
 	}
 }
