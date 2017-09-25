@@ -2,6 +2,7 @@ package main
 
 import ( 
 	"fmt"
+	"unicode/utf8"
 )
 
 //PROBELEM 7 : test a word to see if its a palindrome
@@ -23,7 +24,7 @@ func main() {
 //prints weather the word is a palidrome or not
 func isPal(word string) {
 	var wordLen int
-	wordLen = len(word)
+	wordLen = utf8.RuneCountInString(word)
 	passed := true
 	var i int = 0
 	for wordLen > 1 {
