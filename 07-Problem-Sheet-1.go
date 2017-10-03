@@ -1,6 +1,6 @@
 package main
 
-import ( 
+import (
 	"fmt"
 	"unicode/utf8"
 )

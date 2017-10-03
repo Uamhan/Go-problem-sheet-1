@@ -1,6 +1,6 @@
 package main
 
-import ( 
+import (
 	"fmt"
 )
 
@@ -8,13 +8,14 @@ import (
 func main() {
 
 	//Creates a slice with value 5,1,4,12,2,7.
-	x := []int{5,1,4,12,2,7}
-	
+	x := []int{5, 1, 4, 12, 2, 7}
+
 	//gets the min and max values of the slice from bigSmall function commented on below.
 	min, max := bigSmall(x)
 	//prints min and max values.
 	fmt.Printf("min : %v, max : %v", min, max)
-}	
+}
+
 //BigSmall
 //takes in a slice and gets the length of this slice and sets the min and max values to the first item in the list.
 //uses a forloop to iterate through the list and tests each item against the min and max values.

@@ -9,7 +9,8 @@ func main() {
 
 	x := 9.0                                           // the value we want to get the square root off
 	fmt.Printf("math.Sqrt of x = %v \n", math.Sqrt(x)) //prints the math.sqrt result of x
-	//for loop that prints the retun value of the z_next function untill z = z_next
+
+	//for loop that prints the retun value of the z_next function untill z = z_next(x,z)
 	for z := 1.0; z != z_next(x, z); z = z_next(x, z) {
 		fmt.Printf("x = %v, z = %v\n", x, z)
 	}

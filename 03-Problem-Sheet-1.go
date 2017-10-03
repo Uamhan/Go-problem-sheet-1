@@ -16,7 +16,6 @@ func main() {
 		//if i%5 equals 0 it means the number is a multiple of 5
 		//when the mod of a number = 0 their is no remainder
 		//this proves that it is a multiple of the number.
-
 		if i%3 == 0 && i%5 == 0 {
 			fmt.Printf("fizz buzz.\n") // prints fizz buzz when the number is both a multiple of 3 and 5.
 		} else if i%5 == 0 {

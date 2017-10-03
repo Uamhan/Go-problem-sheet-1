@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	
+
 	fmt.Printf("こんにちは世界.\n") // prints hello world in japaneese characters to the screen.
 }
